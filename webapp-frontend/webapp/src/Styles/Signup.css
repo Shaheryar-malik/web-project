@@ -1,0 +1,75 @@
+.signup_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.signup_main > .signup_main_box > img {
+    height: 100%;
+    width: 60%;
+}
+.signup_main_box {
+    /* padding: 25px; */
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    box-shadow: 4px 4px 10px 4px rgb(192, 187, 187),
+        -4px -4px 10px 4px rgb(224, 221, 221);
+}
+.signup_main_box > .signup_Text_side {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.signup_main_box > .signup_Text_side > h2 {
+    margin: 10px;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 35px;
+}
+.signup_main_box > .signup_Text_side > p {
+    margin-left: 15px;
+    font-weight: 700;
+    color: rgb(82, 78, 78);
+}
+.signup_main_box > .signup_Text_side > input {
+    width: 90%;
+    margin: 5px 15px 10px 15px;
+    padding: 10px;
+    padding-left: 0;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(196, 190, 190);
+    transition: all 0.2s;
+}
+.signup_Text_side > .signup_buttons {
+    display: flex;
+}
+.signup_Text_side > .signup_buttons > button {
+    margin: 20px auto;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+}
+
+.signup_btn-1 {
+    background-color: rgb(76, 139, 233);
+}
+.signup_btn-2 {
+    background-color: rgb(239, 240, 241);
+}
+.signup_btn-2 > a,
+.signup_btn-1 > a {
+    font-size: 18px;
+    font-weight: 550;
+    color: rgb(24, 22, 22);
+    text-decoration: none;
+}
+.signup_buttons > .signup_btn-1:active {
+    opacity: 0.8;
+}
